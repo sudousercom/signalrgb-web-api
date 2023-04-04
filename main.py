@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Welcome to the SignalRGB web API Server!'
+    return 'Welcome to the SignalRGB web API Server!</br> Source - <a href="https://github.com/sudousercom/signalrgb-web-api">https://github.com/sudousercom/signalrgb-web-api</a>'
 
 @app.route('/view/<path:path>')
 def view(path):
