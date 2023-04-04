@@ -7,7 +7,7 @@ This script allows you to launch SignalRGB with specific effects and settings fr
 
 1. Download and install the latest version of Python for Windows from the official website: https://www.python.org/downloads/windows/
 2. Or install Python3 from MS Store
-2. Install the required Python packages by running the following command in the terminal: `pip install Flask`
+2. Install the required Python packages by running the following command in the terminal: ```pip install Flask```
 
 
 ## How to Start the Script
@@ -33,14 +33,14 @@ This will start the script in a minimized window.
 The script provides the following endpoints:
 
 - `http://localhost:8080/effect/apply/<effect_name>` - Launches SignalRGB with the specified effect (silent launch key is not necessary, it is added by default)
-- Example URL: `https://localhost:8080/effect/apply/Rainbow%20Rise?reverse=false&scale=1&speed=50&xPos=298&yPos=200`
+- Example URL: `http://localhost:8080/effect/apply/Rainbow%20Rise?reverse=false&scale=1&speed=50&xPos=298&yPos=200`
 - `http://localhost:8080/view/<view_name>` - Launches SignalRGB with the specified view.
 - Example URL: `http://localhost:8080/view/devices`
 
 To use these endpoints, simply open your web browser and navigate to the appropriate URL. The SignalRGB software should launch automatically with the specified effect or view.
 
 Note: Make sure that SignalRGB is installed and running on your computer before using this script.
-SignalRGB app urls can be found here: `https://docs.signalrgb.com/v2.2.27.0/troubleshooting/application-urls`
+SignalRGB app urls can be found here: [SignalRGB DOCS](https://docs.signalrgb.com/v2.2.27.0/troubleshooting/application-urls)
 
 
 
