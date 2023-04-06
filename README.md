@@ -8,8 +8,13 @@ This script allows you to launch SignalRGB with specific effects and settings fr
 1. Download and install the latest version of Python for Windows from the official website: https://www.python.org/downloads/windows/
 2. Or install Python3 from MS Store
 2. Install the required Python packages by running the following command in the terminal: `pip install Flask flask_httpauth`
-3. Define IP and port for web server, by default it is `127.0.0.1` and `8080`
-4. Add desired usernames and passwords in the `users` dictionary (first pair used in example urls), by default it is
+
+## How to Start the Script
+
+1. Clone this repository to your local machine.
+2. Open the terminal and navigate to the project directory.
+3. Define IP and port for web server in file `main.py`, by default it is `127.0.0.1` and `8080`
+4. Add desired usernames and passwords in file`main.py` in the `users` dictionary (first pair used in example urls), by default it is
 ```
 users = {
     "username": "password123",
@@ -17,13 +22,8 @@ users = {
     "apiuser": "apipwdqwe"
 }
 ```
-
-## How to Start the Script
-
-1. Clone this repository to your local machine.
-2. Open the terminal and navigate to the project directory.
-3. Run the following command to start the Flask server: python main.py
-This will start the server at `http://localhost:8080`.
+5. Run the following command to start the Flask server: `python main.py`
+This will start the server at `http://localhost:8080` by default, or use the address and port you provided.
 
 ## How to Run the Script at Windows Load
 
